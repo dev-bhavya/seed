@@ -54,7 +54,7 @@ function About() {
 function TableS() {
     return (
         <div className="overflow-x-auto">
-            <table className="table">
+            <table className="">
                 {/* head */}
                 {/* <thead>
                     <tr>
@@ -62,45 +62,45 @@ function TableS() {
                         <th>Favorite Color</th>
                     </tr>
                 </thead> */}
-                <tbody className="font-normal font-sans text-black text-lg">
+                <tbody className="bg-white font-normal font-sans text-black text-lg">
                     {/* row 1 */}
-                    <tr>
+                    <tr className="">
                         <td className="w-[27%]">9AM - 10AM</td>
                         <td>Registration</td>
                     </tr>
-                    <tr>
+                    <tr className="">
                         <td>10AM - 11AM</td>
                         <td>
                             <p className="font-bold">Introduction of Techno Conference</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
                         </td>
                     </tr>
                     <tr>
                         <td>11AM - 12AM</td>
                         <td>
                             <p className="font-bold">Talk from Chief Guest</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur!</p>
                         </td>
                     </tr>
                     <tr>
                         <td>1PM - 4PM</td>
                         <td>
                             <p className="font-bold">Talk from Director</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
                         </td>
                     </tr>
                     <tr>
                         <td>4PM - 6PM</td>
                         <td>
                             <p className="font-bold">Session Wrap</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
                         </td>
                     </tr>
                     <tr>
                         <td>6PM - 8PM</td>
                         <td>
                             <p className="font-bold">Committee Dinner</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
                         </td>
                     </tr>
                 </tbody>

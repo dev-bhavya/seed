@@ -77,9 +77,13 @@
 /* About - App.jsx */
 .main-about, .white-div {
 border-radius: 2rem;
-padding: 2rem 2rem;
 background: #FFF;
 box-shadow: 0px 6px 60px 0px rgba(255, 255, 255, 0.43), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.about-half {
+  background: url(./assets/about_top.jpg);
+  background-position: 50% 50%;
 }
 
 /* Buttons */
@@ -91,12 +95,9 @@ box-shadow: 0px 2px 10px 0px #3095A6;
 
 /* Speakers */
 .speakers-card {
-  border-radius: 1.00238rem;
-border: 1.002px solid #4F4F4F;
-background: #232323;
-width: 24.55644rem;
-height: 28.56763rem;
-flex-shrink: 0;
+  -webkit-box-shadow: 1px 0px 51px -10px rgba(40,40,41,1);
+-moz-box-shadow: 1px 0px 51px -10px rgba(40,40,41,1);
+box-shadow: 1px 0px 51px -10px rgba(40,40,41,1);
 }
 
 /* colors */
@@ -120,4 +121,19 @@ flex-shrink: 0;
   background: -webkit-linear-gradient(#000000, #03759E);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Timeline */
+table {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 10px 0px;
 }

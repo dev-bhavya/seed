@@ -3,18 +3,21 @@ import professor from './assets/director.jpg';
 export default function Comittee() {
     return (
 
-        <div className='px-[9rem] py-[3rem] gap-16 blue-gradbg'>
+        <div className='px-[9rem] py-[3rem] gap-16'>
             <p className="w-full text-4xl text-white font-bold">
                 Organizing Comittee
             </p>
-            <div className='flex justify-center items-center gap-x-32 self-stretch'>
-                <Member1 />
-                <Member1 />
-            </div>
-            <div className='flex justify-center items-center gap-x-32 self-stretch'>
-                <Member1 />
-                <Member1 />
-                <Member1 />
+            <div className="divider"></div>
+            <div className='flex flex-col gap-16'>
+                <div className='flex justify-center items-center gap-x-32 self-stretch'>
+                    <Member1 />
+                    <Member1 />
+                </div>
+                <div className='flex justify-center items-center gap-x-32 self-stretch'>
+                    <Member1 />
+                    <Member1 />
+                    <Member1 />
+                </div>
             </div>
         </div>
     );
@@ -22,7 +25,7 @@ export default function Comittee() {
 
 function Member1() {
     return (
-        <div className="avatar flex flex-col items-center justify-center gap-1">
+        <div className="avatar flex flex-col items-center justify-center gap-1 speakers-card">
             <div className="w-24 mask mask-squircle mb-4">
                 <img src={professor} />
             </div>

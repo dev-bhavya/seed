@@ -37,10 +37,10 @@ export default function SNavbar() {
 
 function Menu() {
     return (
-        <ul className="flex flex-col justify-between items-center self-stretch lg:px-[9rem] w-[100%] bg-gradient-to-r from-blue-100 to-blue-900 via-opacity-25 menu menu-vertical lg:menu-horizontal">
+        <ul className="w-full flex flex-row justify-between items-center self-stretch lg:px-[9rem] bg-gradient-to-r from-blue-100 to-blue-900 via-opacity-25 menu menu-vertical ">
             <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Home</a></li>
             <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Speakers</a></li>
-            <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Committee</a></li>
+            <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a href="Comittee.jsx">Committee</a></li>
             <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Schedule</a></li>
             <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Sponsors</a></li>
             <li className="text-white text-center text-lg font-space-grotesk font-medium leading-normal"><a>Awards</a></li>
